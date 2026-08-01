@@ -1,0 +1,6 @@
+Contact: security@oviva.com
+Preferred-Languages: en
+Policy: https://oviva.com/global/en/security/
+Hiring: https://oviva.com/global/en/career/
+Expires: 2028-04-30T23:59:59Z
+Encryption: https://oviva.com/.well-known/oviva-security-public.asc

@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://oviva.com/global/en/data-protection-and-compliance/
+url: https://oviva.com/global/en/data-protection-and-compliance/
+certifications:
+- ISO 27001
+- Cyber Essentials
+- Cyber Essentials Plus
+- NHS Data Security and Protection Toolkit
+- NHS Digital Technology Assessment Criteria (DTAC)
+- CQC Registered Provider
+- CE Marking (Medical Device Regulation)
+compliance:
+- GDPR
+- Swiss Federal Data Protection Act (FDAP)
+- ICO Registration (UK)
+evidence:
+- source: https://oviva.com/global/en/data-protection-and-compliance/
+  keywords: [iso 27001, cyber essentials, nhs dtac, cqc, gdpr, ce marking]

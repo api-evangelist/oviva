@@ -1,8 +1,24 @@
 aid: oviva
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oviva.png
 name: Oviva
-description: 'Oviva is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Oviva is a European digital health company, founded in 2014, delivering personalized,
+  dietitian-led care for people managing type 2 diabetes, obesity, and other diet-related conditions.
+  It combines a mobile app for logging food, activity, and progress with human coaching from a network
+  of 420+ dietitians, psychologists, and doctors, operating across the UK, Germany, and Switzerland and
+  serving 900K+ people. Oviva is delivered as a regulated digital therapeutic (CE-marked, ISO 27001,
+  NHS DTAC and CQC assessed) rather than through a public developer API; this profile captures its
+  security, compliance, and legal surface. Backed by Partech.'
 url: https://raw.githubusercontent.com/api-evangelist/oviva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Digital Health
+- Diabetes
+- Weight Management
+- Nutrition
+- Digital Therapeutics
+- Telehealth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/oviva-vulnerability-disclosure.yml
+- type: Security
+  url: https://oviva.com/global/en/security/
+- type: DomainSecurity
+  url: security/oviva-domain-security.yml
+- type: TrustCenter
+  url: security/oviva-trust-center.yml
+- type: Compliance
+  url: https://oviva.com/global/en/data-protection-and-compliance/
+- type: WellKnown
+  url: well-known/oviva-well-known.yml
+- type: SecurityTxt
+  url: well-known/oviva-security.txt
+- type: PrivacyPolicy
+  url: https://oviva.com/global/en/data-privacy/
+- type: TermsOfService
+  url: https://oviva.com/global/en/terms-and-conditions/
 - type: Website
-  url: http://oviva.com/
+  url: https://oviva.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
